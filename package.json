@@ -1,0 +1,18 @@
+{
+  "name": "proj5",
+  "version": "1.0.0",
+  "description": "donation website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ansh",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^5.1.1",
+    "body": "^5.1.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2"
+  }
+}
