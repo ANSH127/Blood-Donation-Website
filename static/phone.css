@@ -1,0 +1,165 @@
+#navbar{
+    /* display: none; */
+    flex-direction: column;
+}
+@media screen and (max-width: 750px) {
+    #navbar{
+        display: none;
+    }
+}
+#navbar ul li a{
+    font-size:0.7rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+#navbar li{
+    padding:20px 10px;
+}
+
+#home{
+    /* background-color: aqua; */
+    height: 370px;
+    /* width: 100%; */
+    flex-direction: column;
+    padding: 3px 68px;
+
+}
+#home::before{
+    height:400px;
+}
+#home h1{
+    font-size: 22px;
+}
+#home h2{
+    font-size: 15px;
+}
+.btn{
+    font-size:10px;
+    padding:10px 10px;
+}
+
+#about {
+    
+    flex-direction: column;
+}
+#about h1{
+    position: relative;
+    font-size: 30px;
+    padding: 1px 32px;
+    /* display: contents; */
+    /* padding:10px 40px; */
+}
+#about p{
+    position: absolute;
+    display: flex;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.about-section p{
+    padding-left: 35px;
+    padding-top: 25px;
+}
+
+
+.btn1{
+    position: relative;
+    margin: 0px 0px;
+    margin-bottom: 20px;
+}
+.our-gallery img {
+    
+    width: 90%;
+    height: auto;
+    display: grid;
+    margin: auto;
+    margin-top: 20px;
+}
+#gallery h1,#process h1,#blog h1{
+    font-size:25px;
+    padding:20px 30px ;
+}
+.btn2{
+    width: 100%;
+}
+.img1{
+    margin-left: 0px;
+}
+.box {
+    display: grid;
+    margin: auto;
+    margin-bottom: 20%;
+    width: 90%;
+    height: auto;
+}
+
+.box2{
+    display: grid;
+    width:90%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 10%;
+}
+.box2 img{
+    width: 100%;
+    height: auto;
+}
+.box2 p{
+    position: relative;
+    width:100%;
+}
+
+
+.contact-info p{
+    width:auto;
+}
+.form input {
+    display: grid;
+    margin: auto;
+    width: 80%;
+    padding: 15px;
+    font-size: 15px;
+    /* margin: 10px; */
+    background-color: #F8F8F8;
+    border: 2px solid white;
+    /* display: grid; */
+    margin-bottom: 20px;
+
+}
+
+
+.form{
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left:0px;
+    margin-top: -50px;
+    background-color: white;
+    border:1px solid red;
+    background-color: red;
+} 
+
+#btn3{
+    display: table;
+    margin: auto;
+    
+}
+.form h2{
+    background-color: red;
+}
+.bottem{
+    margin-top: 0px;
+}
+.bottem p{
+    text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+    .sidebar{
+        display: block;
+    }
+    #about h1{
+        margin-top: 50px;
+    } 
+}

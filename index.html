@@ -9,6 +9,8 @@
     <script src="https://kit.fontawesome.com/f928c52a29.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1170px)" href="phone.css">
+
     <script src="index.js"></script>
 </head>
 
@@ -25,29 +27,53 @@
 
         </ul>
     </nav>
-    <i  id="icon4" class="fa-regular fa-lightbulb" onclick="darkMode()"></i>
-    <i class="fa-regular fa-message" id="icon5" onclick="openForm()"></i>
-    <div class="chat-popup" id="myForm">
-    <iframe class="ww" width="350" height="430" allow="microphone;" id="chtbox" src="https://console.dialogflow.com/api-client/demo/embedded/39a0c7d2-42b7-4c39-b8f4-44a6f744fdf3"></iframe>
-    <i id="icon6" class="fa-regular fa-circle-xmark" onclick="closeForm()"></i>
+     
+    <div class="sidebar">
 
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#home">Home</a>
+          <a href="#about">About Us</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#process">Process</a>
+          <a href="#blog">Blogs</a>
+          <a href="#footer">Contact Us</a>
+        </div>
+        
+        <span onclick="openNav()" id="btn">&#9776;</span>
+        
+        <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+           
     </div>
+        
+
+
     <section id="home">
         <marquee  behavior="slide" direction="up">
             <h1 class="blink">Donate Blood & Save a Life</h1>
              <h2> Give the gift of life Donate blood</h2></marquee>
             <button class="btn"><a href="contact.html">  Donate Now  </a></button>
     </section>
+    
+
     <section id="about">
         <div class="about-section">
             <h1>About Us</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, magnam. Rem, id vero! Reiciendis soluta non distinctio asperiores fugiat voluptatum. Ad, veritatis nihil consequuntur totam voluptatem, atque dolore cum perferendis dicta earum aut velit vitae officiis labore hic dignissimos dolor modi! Doloremque est ad cum adipisci minima laudantium, ipsam molestias?</p><br>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error esse officiis neque sed ea dolore illum a blanditiis commodi molestiae.</p>
-            <button class="btn1"><a href="">Learn More</a> </button>
-
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, magnam. Rem, id vero! Reiciendis soluta non distinctio asperiores fugiat voluptatum. Ad, veritatis nihil consequuntur totam voluptatem, atque dolore cum perferendis dicta earum aut velit vitae officiis labore hic dignissimos dolor modi! Doloremque est ad cum adipisci minima laudantium, ipsam molestias?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error esse officiis neque sed ea dolore illum a blanditiis commodi molestiae.</p>
+            
         </div>
-        <img class="img1" src="about.png" alt="" width="600" height="400">
+        <img class="img1" src="about.png" alt="">
+        <button class="btn1"><a href="">Learn More</a> </button>
     </section>
+    
     <section id="gallery">
         <h1>Our Gallery</h1>
         <div class="our-gallery">
@@ -63,7 +89,7 @@
         <h1>Process</h1>
         <div class="don-process">
             <div class="box box1">
-                <img src="g6.jpg" alt="" width="270px">
+                <img src="g6.jpg" alt="" >
                 <h3>1 - Registration</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, totam. Doloribus possimus dicta mollitia. Aspernatur maxime odit ut quas pariatur!</p>
                 <button class="btn3"><a href="">Read More</a> </button>
@@ -71,7 +97,7 @@
 
             </div>
             <div class="box">
-                <img src="g7.jpg" alt="" width="270px">
+                <img src="g7.jpg" alt="">
                 <h3>2 - Seeing</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, totam. Doloribus possimus dicta mollitia. Aspernatur maxime odit ut quas pariatur!</p>
                 <button class="btn3"><a href="">Read More</a> </button>
@@ -93,7 +119,7 @@
                 <button class="btn3"><a href="">Read More</a> </button>
 
 
-            </div>
+            </div> 
             
         </div>
         
@@ -133,6 +159,7 @@
             </div>
         </div>
     </section>
+
     <section id="footer">
         <div class="contact-info">
             <h2>Contact Information</h2>
@@ -145,20 +172,6 @@
             <i id="icon3" class="fa-sharp fa-solid fa-phone"></i>
             <p id="p1">+917905658520
                 +91700752018</p>
-        </div>
-        <div class="links">
-            <h2>Quick Links</h2>
-            <ul>
-                
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Gallery</li>
-                <div class="links1">
-                <li>Process</li>
-                <li>Blogs</li>
-                <li>Contact Us</li>
-            </div>
-            </ul>
         </div>
         <div class="form">
             <h2>Quick Message</h2>
@@ -179,7 +192,9 @@
     </section>
     <hr>
     
+        
     
     
-</body>
-</html>
+
+    
+    
