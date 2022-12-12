@@ -190,11 +190,7 @@
 
 
 
-#gallery{
-    /* display: flex; */
-    /* height: 500px; */
-    /* background-color: whitesmoke; */
-}
+
 #gallery h1,#process h1{
     font-size: 50px;
     padding:50px 50px;
@@ -501,3 +497,27 @@ form input{
   .sidebar{
     display: none;
   }
+
+  .dark-mode {
+    background-color: black;
+    color: red;
+
+}
+.light-mode {
+    background-color: white;
+    color: black;
+}
+#icon4{
+    position: absolute;
+    right:0;
+
+    font-size: 35px;
+    /* margin-right: 50px; */
+    /* float: right; */
+    margin-top:5px;
+    margin-right: 10px;
+    /* margin-left: 40px; */
+}
+#icon4:hover{
+    font-size: 40px;
+}
