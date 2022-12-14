@@ -201,6 +201,8 @@
     display: inline-block;
     /* margin-left:50px; */
     padding:0px 10px;
+    width: 30%;
+    margin-top: 2%;
     border-radius: 15px;
     
     /* transform: scale(1); */
@@ -213,6 +215,7 @@
 }
 .img1{
     margin-left: 50px;
+    margin-top: 3%;
 }
 
 
@@ -262,9 +265,9 @@
 .box{
     
     /* border: 2px solid red; */
-    width: 270px;
+    width: 21%;
     height: 370px;
-    margin:0px 15px;
+    margin:0px 1%;
     display: inline-block;
     transition:all 1s ease-in-out .5s;
 
@@ -316,7 +319,7 @@
 .box2{
     display:inline-block;
     height: 150px;
-    width: 530px;
+    width: 43%;
     /* border: 2px solid red; */
     margin: 10px 15px;
     margin-left: 60px;
@@ -335,7 +338,7 @@
     
 
     display: inline-block;
-    width:370px;
+    width:30%;
     font-weight: 400;
     color: #5c5c77;
     font-size: 15px;
@@ -497,6 +500,7 @@ form input{
   .sidebar{
     display: none;
   }
+
 
   .dark-mode {
     background-color: black;
