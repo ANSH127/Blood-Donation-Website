@@ -525,3 +525,13 @@ form input{
 #icon4:hover{
     font-size: 40px;
 }
+.reveal{
+    position: relative;
+    transform: translateY(144px);
+    opacity:0;
+    transition: 1s all ease;
+}
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
