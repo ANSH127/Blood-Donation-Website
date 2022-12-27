@@ -117,5 +117,25 @@ function reveal(){
     });
 
 }
+function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("myBtn").style.display = "block";
+      
+    } else {
+    document.getElementById("myBtn").style.display = "none";
+      
+    }
+  }
+  
 window.addEventListener("scroll",reveal)
+window.onscroll = function() {scrollFunction()};
+
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+
 
